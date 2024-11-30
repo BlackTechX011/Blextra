@@ -3,9 +3,12 @@
 <div align="center">
   <h1 align="center">Blextra</h1>
   <p align="center">A Modern, Responsive, and Batteries-Included Hugo Theme for Beautiful Static Websites</p>
+  
 </div>
 
 ---
+## Documentation
+see Documentation at [blacktechx011.github.io/Blextra](https://blacktechx011.github.io/Blextra)
 
 ## Features
 
