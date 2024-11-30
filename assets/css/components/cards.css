@@ -1,0 +1,41 @@
+.Blextra-cards {
+  grid-template-columns: repeat(auto-fill, minmax(max(250px, calc((100% - 1rem * 2) / var(--Blextra-cards-grid-cols))), 1fr));
+}
+
+.Blextra-card {
+  position: relative;
+}
+
+.Blextra-card img {
+  user-select: none;
+}
+
+.Blextra-card:hover svg {
+  color: currentColor;
+}
+
+.Blextra-card svg {
+  width: 1.5rem;
+  color: #00000033;
+  transition: color 0.3s ease;
+}
+
+.Blextra-card p {
+  margin-top: 0.5rem;
+  position: relative;
+}
+
+.dark .Blextra-card svg {
+  color: #ffffff66;
+}
+
+.dark .Blextra-card:hover svg {
+  color: currentColor;
+}
+
+.Blextra-card-tag {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 10;
+}
