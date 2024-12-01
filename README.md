@@ -35,30 +35,6 @@ see Documentation at [blacktechx011.github.io/Blextra](https://blacktechx011.git
 - **Multi-Language Support & SEO Optimized**  
   Easily create multilingual sites with Hugo's built-in multilingual mode. SEO best practices are included out of the box with support for SEO tags, Open Graph, and Twitter Cards, ensuring your site performs well in search engines and social sharing.
 
----
-
-## Installation
-
-To use Blextra, simply follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/blextra.git
-   ```
-
-2. Navigate to your site directory:
-   ```bash
-   cd your-site
-   ```
-
-3. Install Hugo if you haven't already, following the [official instructions](https://gohugo.io/getting-started/installing/).
-
-4. Start the Hugo server to preview the site locally:
-   ```bash
-   hugo server
-   ```
-
-5. Open your browser and visit `http://localhost:1313` to see Blextra in action!
 
 ---
 
