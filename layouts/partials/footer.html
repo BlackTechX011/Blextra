@@ -2,6 +2,9 @@
 {{- $displayThemeToggle := site.Params.theme.displayToggle | default true -}}
 
 {{- $copyright := (T "copyright") | default "© 2024 Blextra." -}}‎layouts/partials/footer.html
+‎layouts/partials/footer.html
+
+{{- $poweredBy := (T "poweredBy") | default "Powered by Blextra" -}}
 
 {{- $footerWidth := "hx-max-w-screen-xl" -}}
 {{- with .Site.Params.footer.width -}}
@@ -35,5 +38,16 @@
     </div>
   </div>
 </footer>
+
+{{- define "theme-credit" -}}
+  <a class="hx-flex hx-text-sm hx-items-center hx-gap-1 hx-text-current" target="_blank" rel="noopener noreferrer" title="Blextra GitHub Homepage" href="https://github.com/BlackTechX011/Blextra">
+    <span>
+      {{- . | markdownify -}}
+      {{- if strings.Contains . "Blextra" -}}
+        {{- partial "utils/icon.html" (dict "name" "Blextra" "attributes" `height=1em class="hx-inline-block ltr:hx-ml-1 rtl:hx-mr-1 hx-align-[-2.5px]"`) -}}
+      {{- end -}}
+    </span>
+  </a>
+{{- end -}}
 
 
